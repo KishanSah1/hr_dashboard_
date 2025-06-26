@@ -1,8 +1,8 @@
 'use client';
 
 import { createContext, useContext, useReducer, useEffect, ReactNode } from 'react';
-import { Employee, Department } from '@/types/employee';
-import { fetchEmployees } from '@/lib/api';
+import { fetchEmployees } from '../lib/api';
+import { Department, Employee } from '../types/employee';
 
 interface HRState {
   employees: Employee[];

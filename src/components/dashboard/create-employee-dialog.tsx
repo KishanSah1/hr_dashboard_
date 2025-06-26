@@ -103,7 +103,7 @@ export function CreateEmployeeDialog() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button className="flex items-center gap-2">
+        <Button className="flex items-center gap-2" onClick={()=>console.log("clicked")}>
           <Plus className="h-4 w-4" />
           Add Employee
         </Button>

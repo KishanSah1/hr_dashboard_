@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { Users, Star, TrendingUp, Award } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { useHRContext } from '@/contexts/hr-context';
+import { motion } from 'framer-motion';
+import { Award, Star, TrendingUp, Users } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 
 export function AnalyticsStats() {
   const { state } = useHRContext();

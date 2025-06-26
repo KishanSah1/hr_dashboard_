@@ -2,7 +2,8 @@
 
 import { SessionProvider } from 'next-auth/react';
 import { ThemeProvider } from 'next-themes';
-import { HRContextProvider } from '@/contexts/hr-context';
+import { HRContextProvider } from '../contexts/hr-context';
+// import { HRContextProvider } from '@/contexts/hr-context';
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
